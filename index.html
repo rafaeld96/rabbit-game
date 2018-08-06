@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rabbit World</title>
+	<link rel="stylesheet" href="rabbit.css">
+  </head>
+
+  <body>
+    <div class = "header">
+
+    </div>
+    <div class = "main">
+      <div class = "title">
+        <div class = "text">Oversee their demise...</div>
+      </div>
+      <div class = "game">
+        <div class = "button-container">
+          <button id = "button" onclick = "update()">
+          Time passes...</button>
+        </div>
+        <div class = "game-container">
+          <div id = "images">
+            <div id = "images1">
+              <img id = "lsbluearrow" height = "300" width = "180" src = "bluearrows\lsblue-arrow.png"></img>
+              <img id = "rsbluearrow" height = "300" width = "180" src = "bluearrows\rsblue-arrow.png"></img>
+              <img id = "usbluearrow" height = "300" width = "180" src = "bluearrows\usblue-arrow.png"></img>
+              <img id = "dsbluearrow" height = "300" width = "180" src = "bluearrows\dsblue-arrow.png"></img>
+            </div>
+            <div id = "images2">
+              <img id = "lspinkarrow" height = "300" width = "180" src = "pinkarrows\lspink-arrow.png"></img>
+              <img id = "rspinkarrow" height = "300" width = "180" src = "pinkarrows\rspink-arrow.png"></img>
+              <img id = "uspinkarrow" height = "300" width = "180" src = "pinkarrows\uspink-arrow.png"></img>
+              <img id = "dspinkarrow" height = "300" width = "180" src = "pinkarrows\dspink-arrow.png"></img>
+            </div>
+            <div id = "images3">
+              <img id = "lsyellowarrow" height = "300" width = "180" src = "yellowarrows\lsyellow-arrow.png"></img>
+              <img id = "rsyellowarrow" height = "300" width = "180" src = "yellowarrows\rsyellow-arrow.png"></img>
+              <img id = "usyellowarrow" height = "300" width = "180" src = "yellowarrows\usyellow-arrow.png"></img>
+              <img id = "dsyellowarrow" height = "300" width = "180" src = "yellowarrows\dsyellow-arrow.png"></img>
+            </div>
+            <div id = "images4">
+              <img id = "lsblackarrow" height = "300" width = "180" src = "blackarrows\lsblack-arrow.png"></img>
+              <img id = "rsblackarrow" height = "300" width = "180" src = "blackarrows\rsblack-arrow.png"></img>
+              <img id = "usblackarrow" height = "300" width = "180" src = "blackarrows\usblack-arrow.png"></img>
+              <img id = "dsblackarrow" height = "300" width = "180" src = "blackarrows\dsblack-arrow.png"></img>
+            </div>
+          </div>
+          <div class = "plague-button-container-1">
+            <img id = "plagueleft" src = "plague_pictures\plagueleft.jpg"></img>
+            <button class = "plague" onclick = "firePlagueLeft()">PLAGUE!</button>
+          </div>
+          <div class="canvas">
+            <canvas id = "game-canvas" width = "300" height = "300"></canvas>
+          </div>
+          <div class = "plague-button-container-2">
+            <img id = "plagueright" src = "plague_pictures\plagueright.jpg"></img>
+            <button class = "plague" onclick = "firePlagueRight()">PLAGUE!</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src = "rabbit.js"></script>
+  </body>
+
+</html>

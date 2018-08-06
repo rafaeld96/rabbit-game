@@ -1,0 +1,108 @@
+.header {
+  height: 17vh;
+  width: 100%;
+  outline: 1px solid black;
+  background: url(https://gdb.voanews.com/E0D06112-30CD-4DB1-A086-BBB3BA58E40B_w1023_r1_s.jpg);
+  background-size: auto;
+}
+
+.main {
+  height: 80vh;
+  margin: 0px 20px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
+
+}
+
+#button:hover {
+  background-color: #000000;
+}
+
+#button {
+  background-color: #4CAF50;
+  white-space: nowrap;
+  border: none;
+  color: white;
+  padding: 10px 190px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.game {
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plague {
+  background-color: #4CAF50;
+  border: none;
+  color: brown;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.plague:hover {
+  background-color: #000000;
+}
+
+.plague-button-container-1 {
+  display: inline;
+  float: none;
+  margin-right: 2px;
+}
+
+#plagueleft {
+  display: none
+}
+
+#images {
+  display: none
+}
+
+.plague-button-container-2 {
+  display: inline;
+  float: none;
+  margin-left: 2px;
+}
+
+#plagueright {
+  display: none
+}
+
+.canvas {
+  display: inline;
+  float: none;
+}
+
+#game-canvas {
+  outline: 1px solid brown;
+}
+
+.footer {
+  height: 17vh;
+  width: 100%;
+  outline: 1px solid black;
+  background: url(https://i.ytimg.com/vi/_5ZTdWfgoDA/maxresdefault.jpg);
+  background-size: auto;
+}
